@@ -1,0 +1,87 @@
+.nav-link {
+    font-size: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin : 0px;
+    padding: 0px;
+    margin-right: 20px;
+    float: left;
+     
+  }
+  
+  #nav-bar {
+  position: relative;
+  float: right;
+  color: white;
+    
+  }
+
+  .centertop {
+    font-size: 40px; 
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 30px;
+    padding-bottom: 1%;
+    color: white;
+    margin-bottom: 5px;
+
+  }
+
+button {
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(223, 157, 203);
+    color: white;
+}
+
+.top-bar {
+    background-image: url("image/kevin-bhagat-zNRITe8NPqY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 1230px;
+    padding: 50px;
+}
+
+i {
+    color: white;
+}
+
+#full{
+  font-size: 3rem;
+  text-align: center;
+  color: palevioletred;
+  margin-top: 0%;
+}
+
+.image-align {
+  display: flex;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.left-align {
+  font-size: 25.7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 9rem;
+  width: 80%;
+  overflow: visible;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 60px;
+  display: inline-block;
+}
+
+.rignt-align {
+  
+  float: right;
+  margin-right: 10px;
+}
