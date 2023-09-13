@@ -1,3 +1,10 @@
+body {
+  background-color: papayawhip;
+  margin: 0;
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .nav-link {
     font-size: 20px;
     padding-top: 10px;
@@ -7,11 +14,18 @@
     justify-content: flex-end;
     margin : 0px;
     padding: 0px;
-    margin-right: 20px;
-    float: left;
-     
+    margin-right: 25px;
+    float: left;  
+  }
+  a {
+    color: white;
+    /* transition: 0s; */
   }
   
+  a:hover {
+    color: #caa570;
+  }
+
   #nav-bar {
   position: relative;
   float: right;
@@ -29,7 +43,7 @@
     margin-right: 0;
     padding: 30px;
     padding-bottom: 1%;
-    color: white;
+    color: #ffffff;
     margin-bottom: 5px;
 
   }
@@ -38,17 +52,23 @@ button {
     padding: 15px;
     border-radius: 4px;
     text-align: center;
-    background-color: rgb(223, 157, 203);
+    background-color: #E0C196;
     color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button :hover {
+    color: #a86404;
 }
 
 .top-bar {
-    background-image: url("image/kevin-bhagat-zNRITe8NPqY-unsplash.jpg");
+    background-image: url("image/kedibone-isaac-makhumisane-P7mi7-uEQ78-unsplash.jpg");
     background-size: cover;
     background-position: center;
     height: 600px;
-    width: 1230px;
-    padding: 50px;
+    width: 100%;
+    padding-top: 50px;
 }
 
 i {
@@ -58,30 +78,77 @@ i {
 #full{
   font-size: 3rem;
   text-align: center;
-  color: palevioletred;
+  color: #caa570;
   margin-top: 0%;
 }
 
-.image-align {
-  display: flex;
+.middle {
+  width: 100%;
   text-align: center;
-  border-radius: 6px;
 }
 
-.left-align {
-  font-size: 25.7px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 9rem;
+.middle-main {
+  font-size: 3rem;
+  float: inherit;
+  text-align: center;
+}
+
+.middle-text {
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.second-mid {
+  width: 100%;
+  text-align: center;
+}
+
+.second-mid-main {
+  font-size: 3rem;
+  float: inherit;
+  text-align: center;
+}
+
+.second-mid-text {
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 80%;
-  overflow: visible;
-  margin-top: 60px;
-  margin-left: 20px;
-  margin-right: 60px;
-  display: inline-block;
 }
 
-.rignt-align {
-  
-  float: right;
-  margin-right: 10px;
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  text-decoration: none;
+}
+
+#email {
+  text-decoration: none;
+  color: #00ffff;
+}
+
+.heading {
+  font-size: 3rem;
+  float: inherit;
+  text-align: center;
+}
+
+.hobbies {
+  line-height: 1.7;
+  margin-left: 40px;
+}
+.contact {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
